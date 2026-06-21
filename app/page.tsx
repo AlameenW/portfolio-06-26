@@ -99,7 +99,7 @@ export default function Home() {
             </div>
             <div className="about-body reveal" data-d="1">
               <p>
-                Hi, I&apos;m Alameen — a Computer Science senior at{" "}
+                Hi, I&apos;m Alameen — a Computer Science rising senior at{" "}
                 <b>Southeastern Louisiana University</b>. I specialize in
                 building websites with beautiful, modern, and user-friendly
                 designs, taking products from first sketch to production

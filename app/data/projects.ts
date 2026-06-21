@@ -40,7 +40,7 @@ export const projectsData: Project[] = [
     title: "Portfolio Website",
     description:
       "The very portfolio you're looking at, designed to be modern and responsive.",
-    tags: ["React", "TypeScript", "Tailwind"],
+    tags: ["Next.js", "React", "TypeScript", "EmailJS"],
     repo: "https://github.com/AlameenW/portfolio-06-26",
     featured: false,
   },

@@ -40,7 +40,7 @@ export default function ProjectsPage() {
               All <span className="hl">Projects</span>
             </h2>
             <p className="section-sub">
-              Every project I&apos;ve shipped, from hackathon builds to full-stack apps — the
+              Every project I&apos;ve worked on from class projects, hackathon builds and personal full-stack apps — the
               complete record, not just the highlights.
             </p>
           </div>
