@@ -34,7 +34,7 @@ export default function ContactForm() {
     <form className="reveal" data-d="1" onSubmit={handleSubmit}>
       <div className="field">
         <label htmlFor="name">Full Name</label>
-        <input id="name" name="from_name" type="text" placeholder="Jane Doe" required />
+        <input id="name" name="from_name" type="text" placeholder="Jane Collins" required />
       </div>
       <div className="field">
         <label htmlFor="email">Email Address</label>
