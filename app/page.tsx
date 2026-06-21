@@ -1,3 +1,4 @@
+import Image from "next/image";
 import PageEffects from "./PageEffects";
 import ContactForm from "./ContactForm";
 import ProjectRow from "./ProjectRow";
@@ -19,9 +20,9 @@ export default function Home() {
           <a href="#projects">Work</a>
           <a href="#contact">Contact</a>
           <a
-            href="https://portfolio-two-chi-py4cyjb8i1.vercel.app/resume.pdf"
+            href="/Alameen-Adeku-Resume.pdf"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             className="nav-resume"
           >
             Resume ↗
@@ -33,7 +34,7 @@ export default function Home() {
         {/* HERO */}
         <section className="hero" id="home">
           <div className="hero-status reveal">
-            <span className="status-dot"></span> Open to internships &amp; new-grad roles — 2026
+            <span className="status-dot"></span> Open to internships &amp; new-grad roles
           </div>
           <h1 className="reveal-up">
             <span className="line"><span>Alameen</span></span>
@@ -44,8 +45,7 @@ export default function Home() {
           </p>
           <p className="hero-bio reveal" data-d="2">
             CS senior at Southeastern Louisiana University building full-scale web applications from
-            concept to deployment. Currently going deep on <b>React Native</b> and{" "}
-            <b>Machine Learning &amp; AI</b>.
+            concept to deployment. Currently going deep on <b>Machine Learning &amp; AI</b>.
           </p>
           <div className="cta-row reveal" data-d="3">
             <a href="#projects" className="btn btn-primary">
@@ -55,9 +55,9 @@ export default function Home() {
               Get In Touch
             </a>
             <a
-              href="https://portfolio-two-chi-py4cyjb8i1.vercel.app/resume.pdf"
+              href="/Alameen-Adeku-Resume.pdf"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               className="btn btn-ghost"
             >
               Resume <span className="arr">↗</span>
@@ -79,9 +79,13 @@ export default function Home() {
           <div className="about-grid">
             <div className="headshot reveal">
               <div className="block"></div>
-              <img
-                src="https://portfolio-two-chi-py4cyjb8i1.vercel.app/_next/image?url=%2Fheadshot.jpeg&w=828&q=75"
+              <Image
+                src="/headshot.jpeg"
                 alt="Alameen Adeku"
+                width={1280}
+                height={1600}
+                style={{ width: "100%", height: "auto" }}
+                priority
               />
             </div>
             <div className="about-body reveal" data-d="1">
@@ -92,8 +96,8 @@ export default function Home() {
                 production deployment.
               </p>
               <p>
-                Right now I&apos;m learning <b>mobile development with React Native</b> and exploring{" "}
-                <b>Machine Learning and AI</b> — areas I&apos;m deeply curious about and excited to grow
+                Right now I&apos;m learning <b>AI engineering & automation</b> and exploring{" "}
+                <b>Machine Learning and AI.</b>These are areas I&apos;m deeply curious about and excited to grow
                 into. I bring a solid foundation in modern web technologies paired with a genuine
                 passion for continuous learning.
               </p>
@@ -101,7 +105,7 @@ export default function Home() {
               <div className="stats-row">
                 <div className="stat"><div className="num">3+</div><div className="lbl">Years coding</div></div>
                 <div className="stat"><div className="num">16+</div><div className="lbl">Technologies</div></div>
-                <div className="stat"><div className="num">&apos;26</div><div className="lbl">Graduating</div></div>
+                <div className="stat"><div className="num">&apos;27</div><div className="lbl">Graduating</div></div>
               </div>
             </div>
           </div>
@@ -115,8 +119,7 @@ export default function Home() {
               A toolkit for the <span className="hl">full stack</span>
             </h2>
             <p className="section-sub">
-              From pixel-perfect frontends to data pipelines — the technologies I reach for to ship
-              complete products.
+              The technologies I reach for to ship complete products.
             </p>
           </div>
           <div className="skills-grid">

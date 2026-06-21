@@ -22,9 +22,9 @@ export default function ProjectsPage() {
           <a href="/projects">Work</a>
           <a href="/#contact">Contact</a>
           <a
-            href="https://portfolio-two-chi-py4cyjb8i1.vercel.app/resume.pdf"
+            href="/Alameen-Adeku-Resume.pdf"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             className="nav-resume"
           >
             Resume ↗
