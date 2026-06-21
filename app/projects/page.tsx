@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import PageEffects from "../PageEffects";
 import ProjectRow from "../ProjectRow";
 import { projectsData } from "../data/projects";
@@ -13,14 +14,14 @@ export default function ProjectsPage() {
     <>
       <PageEffects />
       <nav id="nav">
-        <a href="/" className="logo" aria-label="Alameen Adeku — home">
+        <Link href="/" className="logo" aria-label="Alameen Adeku — home">
           <span className="a-mark">A</span>
-        </a>
+        </Link>
         <div className="nav-links">
-          <a href="/#about">About</a>
-          <a href="/#skills">Skills</a>
-          <a href="/projects">Work</a>
-          <a href="/#contact">Contact</a>
+          <Link href="/#about">About</Link>
+          <Link href="/#skills">Skills</Link>
+          <Link href="/projects">Work</Link>
+          <Link href="/#contact">Contact</Link>
           <a
             href="/Alameen-Adeku-Resume.pdf"
             target="_blank"
@@ -50,15 +51,15 @@ export default function ProjectsPage() {
             ))}
           </div>
           <div className="projects-cta reveal">
-            <a href="/#projects" className="btn btn-ghost">
+            <Link href="/#projects" className="btn btn-ghost">
               Back to Home <span className="arr">→</span>
-            </a>
+            </Link>
           </div>
         </section>
       </main>
 
       <footer>
-        <a href="/" className="logo" aria-label="Home"><span className="a-mark">A</span></a>
+        <Link href="/" className="logo" aria-label="Home"><span className="a-mark">A</span></Link>
         <span className="copy">© 2026 Alameen Adeku — designed &amp; built with care</span>
       </footer>
     </>
